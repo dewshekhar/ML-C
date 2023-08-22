@@ -5,7 +5,7 @@ import random  # For random number generation
 import numpy as np  # For numerical operations
 
 # Load the dataset from the provided URL
-url = "https://raw.githubusercontent.com/dewshekhar/DFS-and-BFS-for-8-Puzzel/main/cancer.csv"
+url = "https://raw.githubusercontent.com/dewshekhar/ML-C/main/cancer.csv"
 df = pd.read_csv(url)
 
 # Select relevant columns for clustering ('radius_mean' and 'texture_mean')
